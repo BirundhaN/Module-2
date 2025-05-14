@@ -1,42 +1,43 @@
 # Exp. No: 2a  
-## ITERATIVE STATEMENTS – Printing Natural Numbers from 1 to n
+## ITERATIVE STATEMENTS – PRINTING N NATURAL NUMBERS
 
 ###  Aim
-To write a Python program that prints the first n natural numbers using a loop.
+To create a Python program for printing `n` natural numbers using a `for` loop.
 
 ---
 
 ###  Algorithm
 
-1.Start the program and take input n from the user.
-
-2.Print a heading message: "Natural Numbers are :".
-
-3.Use a for loop from 1 to n (inclusive).
-
-4.Inside the loop, print each number.
+1. Begin the program.
+2. Use `input()` to read the value of `n` (the upper limit) from the user.
+3. Convert the input to an integer.
+4. Display the message **"Natural Numbers are :"**.
+5. Use a `for` loop to iterate from 1 to `n` (inclusive).
+6. In each iteration, print the current value of `i`.
+7. Terminate the program.
 
 ---
 
 ### 🧾 Program
 
 ```python
-#Reg.NO 212222060027
-#Name BIRUNDHA N
-n=int(input())
-
+#Reg.NO:212222060027
+#Name:Birundha N
+#Write your Code here
+a=int(input())
 print("Natural Numbers are :")
-for i in range(1,n+1):
+i=1
+while i<=a:
+    
     print(i)
-
+    i+=1
 ```
 ### OUTPUT
-```
-![image](https://github.com/user-attachments/assets/86cf77cd-1442-4e4d-9a85-8203efbdc2b0)
 
-```
+![LAB2 DAY1](https://github.com/user-attachments/assets/f2ed883c-f413-416c-8dbb-52530c0f5e30)
+
+
 ### RESULT
 ```
-Thus, The Python program that prints the first n natural numbers using a loop was implemented and executed successfully.
+Thus, the Python program to print `n` natural numbers using a `for` loop has been implemented and executed successfully.
 ```
-
