@@ -3,11 +3,11 @@
 
 
 
- AIM  
+#  AIM  
 To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
 
 
- ALGORITHM
+#  ALGORITHM
 
 1. Begin the program.  
 2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
@@ -19,7 +19,7 @@ To write a Python program to check the relation between two numbers — whether 
 6. Terminate the program.
 
 
- PROGRAM
+# PROGRAM
  
 result = lambda x,y : f"{x} is smaller than {y}" if x < y else (f"{x} is greater than {y}" if x > y                else f"{x} is equal to {y}")
 
@@ -30,11 +30,11 @@ b=int(input())
 print(result(a, b))
 
 
- OUTPUT
+ # OUTPUT
  
 ![image](https://github.com/user-attachments/assets/68e2fbb4-b651-413c-b7b4-69934860e9c6)
 
 
- RESULT
+# RESULT
 
 Thus the  Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function was implemented and executed successfully.
